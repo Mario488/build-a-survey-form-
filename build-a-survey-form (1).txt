@@ -1,0 +1,83 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <h1 id="title">Survey Form</h1>
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>  
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+      <form id="survey-form">
+        <label id="name-label">Name<input id="name" type="text" placeholder="Enter your name" required/></label>
+        <br>
+        <label id="email-label">Email<input id="email" type="email" placeholder="Enter your email" required/></label>
+        <br>
+        <label id="number-label">Age<input id="number" type="number" min="8" max="15" placeholder="Age" required/></label>
+        <br>
+        <select id="dropdown">
+          <option>Select an option</option>
+          <option>Student</option>
+          <option>Full Time Job</option>
+          <option>Full Time Learner</option>
+          <option>Other</option>
+          </select>
+          <br>
+          <label>Would you recommend freeCodeCamp to a friend?</label>
+          <br>
+            <label>Definitely<input type="radio" name="option1" value="radio1"/></label>
+            <label>Maybe<input type="radio" name="option1" value="radio2"/></label>
+            <label>Not sure<input type="radio" name="option1" value="radio3"/></label>
+            
+            <br>
+              <label>What would you like to see improved?</label>
+              <br>
+              <label>Front-End Projects<input type="checkbox" value="cb1"/></label>
+              <br>
+              <label>Back-End Projects<input type="checkbox" value="cb2"/></label>
+              <br>
+              <label>Challenges<input type="checkbox" value="cb3"/></label>
+            <br>
+            <label>Any comments or suggestions<textarea></textarea></label>
+            <br>
+            <button id="submit">Submit</button>
+      </form>
+      
+    </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#title{
+  text-align: center;
+  font-size: 30px;
+}
+body{
+  text-align: center;
+  display: block;
+  background-image: url('img_girl.jpg');
+}
+#description{
+  font-family: cursive;
+  font-size: 13px;
+  text-align: center;
+}
+#submit{
+  color: #ffffff;
+  background-color: green;
+  border: green;
+  border-radius: 2.5px;
+  margin-top: 7px;  
+  width: 89px;
+  
+}
+
+
+
+
+** end of undefined **
+
